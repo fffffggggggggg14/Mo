@@ -224,6 +224,7 @@ def file_xl(file_name, img, data1, data2, data3, data4, data5, rate):
     end += 2
 
 
+
     ws[f'E{end}'].value = "Thank Youfor You Business"
     ws[f'E{end}'].font = Font(color = "1F4E78", bold = True)
 
